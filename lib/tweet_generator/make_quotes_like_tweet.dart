@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:demo_project/password_generator/password_generator_using_random_func.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -175,12 +176,12 @@ class _QuotesAppScreenState extends State<QuotesAppScreen> {
                                             "${quote.text}",
                                             style: TextStyle(
                                               fontWeight: FontWeight.bold,
-                                              color: Colors.pink,
+                                              color: Colors.indigo,
                                               fontSize: 16,
                                               shadows: [
                                                 Shadow(
                                                   color:
-                                                      Colors.pink.shade200,
+                                                      Colors.indigo.shade200,
                                                   offset:
                                                       const Offset(1, 1),
                                                 ),
@@ -199,10 +200,10 @@ class _QuotesAppScreenState extends State<QuotesAppScreen> {
                                   mainAxisAlignment:
                                       MainAxisAlignment.spaceEvenly,
                                   children: const [
-                                    Icon(Icons.chat, size: 18),
-                                    Icon(Icons.repeat, size: 18),
+                                    Icon(CupertinoIcons.chat_bubble, size: 18),
+                                    Icon(CupertinoIcons.arrow_2_squarepath, size: 18),
                                     Icon(Icons.favorite_border, size: 18),
-                                    Icon(Icons.ios_share, size: 18),
+                                    Icon(CupertinoIcons.share, size: 18),
                                   ],
                                 ),
                                 const SizedBox(height: 10),

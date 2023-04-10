@@ -81,7 +81,7 @@ class _WhatsAppHomeScreenState extends State<WhatsAppHomeScreen> {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('WhatsApp'),
+          title: const Text('WhatsApp UI'),
           actions: [
             IconButton(
               icon: const Icon(Icons.search),
