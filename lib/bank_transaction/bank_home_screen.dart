@@ -73,6 +73,7 @@ class _BankHomeScreenState extends State<BankHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: const Text('Banking App'),
       ),

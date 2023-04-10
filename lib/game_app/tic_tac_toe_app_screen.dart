@@ -24,19 +24,19 @@ class _TicTacToeHomePageState extends State<TicTacToeHomePage> {
       backgroundColor: Colors.indigo[400],
       appBar: AppBar(
         title: const Text("Tic Tac Toe Game App"),
-        actions: [
-          IconButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const SplashScreen(),
-                ),
-              );
-            },
-            icon: const Icon(Icons.navigate_next),
-          ),
-        ],
+        // actions: [
+        //   IconButton(
+        //     onPressed: () {
+        //       Navigator.push(
+        //         context,
+        //         MaterialPageRoute(
+        //           builder: (context) => const SplashScreen(),
+        //         ),
+        //       );
+        //     },
+        //     icon: const Icon(Icons.navigate_next),
+        //   ),
+        // ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
