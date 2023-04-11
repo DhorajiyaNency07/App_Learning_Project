@@ -85,7 +85,7 @@ class _ByteConverterHomePageState extends State<ByteConverterHomePage> {
   }
 }
 
-void main() {
-  runApp(const ByteConverterApp());
-}
+// void main() {
+//   runApp(const ByteConverterApp());
+// }
 
