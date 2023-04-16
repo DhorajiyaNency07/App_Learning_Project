@@ -10,6 +10,8 @@ A new Flutter project.
 ![screen-20230410-142339_2](https://user-images.githubusercontent.com/109361169/230886291-6b1f481e-f5bb-425a-906a-37ef1ac544a9.gif)
 ![screen-20230410-142625_2](https://user-images.githubusercontent.com/109361169/230886310-b5ea4efd-5493-4430-970c-840d8c24cd50.gif)
 ![screen-20230410-143441_2](https://user-images.githubusercontent.com/109361169/230886328-2fadacad-2e94-455b-a711-a94f82657895.gif)
+![gif_1](https://user-images.githubusercontent.com/109361169/232297826-3bbde378-d0d7-4b48-8093-e6892f587eaa.gif)
+![gif_2](https://user-images.githubusercontent.com/109361169/232297844-3bb47668-6b3f-4922-8f3b-796f441f24db.gif)
 
 ## Getting Started
 
